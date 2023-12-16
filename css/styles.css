@@ -177,15 +177,21 @@ img{
 
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
+
 }
 
 .footer-p{
+    max-width: 264px;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5
+    
 }
 
 .footer-logo{
+    margin-bottom: 16px;
+    display: inline-block;
     color: #4D5AE5;
     text-transform: uppercase;
     line-height: 21px;
