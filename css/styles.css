@@ -141,9 +141,11 @@ img{
 
 .hero {
     background-color: #2E2F42 ; 
+    padding: 188px 0;
 }
 
 .hero-title {
+    max-width: 496px;
     text-align: center;
     color: white;
     font-size: 56px;
@@ -156,6 +158,12 @@ img{
 
 
 .hero-btm {
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
     color: white;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -178,8 +186,13 @@ img{
     background-color: #404BBF;
 }
 
+/*==============strategy=============*/
+
+
 .strategy {
-    line-height: 1.07
+
+    padding: 120px 0;
+    line-height: 1.07;
 }
 
 .Logo_strategy{
@@ -189,9 +202,22 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    visibility: hidden;
+}
+
+.strategy_ul{
+    display: flex;
+    gap: 24px;
+
+}
+
+.strategy_li{
+    width: calc((100% - 72px) / 4);
+    
 }
 
 .strategy-h{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -205,6 +231,8 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/*==============footer=============*/
 
 .footer{
     background-color: #2e2f42;
