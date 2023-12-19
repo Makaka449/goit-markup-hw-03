@@ -220,6 +220,8 @@ img{
 }
 
 .strategy_li{
+    margin: 0;
+    padding: 0;
     width: calc((100% - 72px) / 4);
 
 }
@@ -301,7 +303,7 @@ img{
 }
 
 .team_div{
-    padding: 32px;
+    padding: 32px 0;
 
 }
 
