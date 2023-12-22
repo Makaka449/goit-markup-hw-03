@@ -358,8 +358,8 @@ img{
 }
 
 .portfolio_logo{
-    margin-bottom: 8px;
-    
+    margin-bottom: 72px;
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -389,6 +389,7 @@ img{
 }
 
 .portfolio_h{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
