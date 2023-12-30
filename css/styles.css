@@ -321,8 +321,9 @@ img{
 }
 
 .footer_a{
+    display: inline-block;
+    margin-bottom: 16px;
     
-
 }
 
 .footer_a:hover{
